@@ -1,0 +1,51 @@
+body{
+    width: 100%;
+    height: auto;
+    background-color: rgb(84, 84, 206);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form{
+    background-color: white;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 16%;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5), 
+    -5px -5px 5px rgba(0, 0, 0, 0.5), 
+    5px -5px 5px rgba(0, 0, 0, 0.5), 
+    -5px 5px 5px rgba(0, 0, 0, 0.5);
+    color:  rgb(84, 84, 206);
+}
+
+form input[type="submit"]{
+    background-color: rgb(84, 84, 206);
+    padding: 1.5%;
+    width: 25%;
+    color: white;
+    border:1px solid rgb(84, 84, 206);
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover{
+    color:  rgb(84, 84, 206);
+    background-color: white;
+    border: 1px solid rgb(84, 84, 206);
+}
+
+form input{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+    height: 2.5vh;
+}
+
+#validarUsuario, #validarContrasenia{
+    color: rgb(230, 71, 71);
+}
+
+#validarFormulario{
+    color: green;
+}
